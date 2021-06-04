@@ -34,3 +34,4 @@
 # print((1,2,3,["a","b","c"]))
 # for a in{"a":"apple","b":"ball","c":"cat"}:
 #     print(a)
+print("うんこ")
