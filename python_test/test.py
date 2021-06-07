@@ -36,4 +36,4 @@
 #     print(a)
 print("unko")
 print("kosdkoask")
-print("korokoro")
+# print("korokoro")
