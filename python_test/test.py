@@ -34,5 +34,11 @@
 # print((1,2,3,["a","b","c"]))
 # for a in{"a":"apple","b":"ball","c":"cat"}:
 #     print(a)
+<<<<<<< HEAD
 # print("unko")
 # print("kosdkoask")
+=======
+print("unko")
+# print("kosdkoask")
+# print("korokoro")
+>>>>>>> 9cc8f25ec18f96bcc447cc528a4be9e03f6ea271
