@@ -1,0 +1,83 @@
+.taitoru_div {
+    /* background-color: brown; */
+    display: block;
+}
+
+.img_1 {
+    display: inline-flex;
+    width: 30px;
+    margin-right: 30px;
+}
+
+.taitoru_1 {
+    color: rgb(75, 74, 74);
+    display: inline-flex;
+    margin-right: 30px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    /* background-color: burlywood; */
+    font-size: 30px;
+}
+
+.taitoru_2 {
+    color: rgb(75, 74, 74);
+    display: inline-flex;
+    margin-right: 30px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    /* background-color: burlywood; */
+    font-size: 30px;
+}
+
+.taitoru_3 {
+    color: rgb(75, 74, 74);
+    display: inline-flex;
+    margin-right: 30px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    /* background-color: burlywood; */
+    font-size: 30px;
+}
+
+.taitoru_4 {
+    color: rgb(75, 74, 74);
+    display: inline-flex;
+    margin-right: 30px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    /* background-color: burlywood; */
+    font-size: 30px;
+}
+
+#un_link {
+    color: black;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    right: 30%;
+    background-color: white;
+}
+
+.un_div {
+    background-image: url(../img/スクリーンショット\ 2021-06-08\ 15.54.25.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+    height: 700px;
+}
+
+.gu_div {
+    background-image: url(../img/スクリーンショット\ 2021-06-08\ 19.15.20.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+    height: 700px;
+}
