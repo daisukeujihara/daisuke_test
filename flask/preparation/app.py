@@ -20,6 +20,42 @@ def template():
     py_name = "sunabaco"
     return render_template("index.html",name = py_name)
 
+import sqlite3
+
+@app.route("/dbtest")
+def dbtest():
+    conn = sqlite3.connect("flask_test.db")
+    c = conn.cursor()
+    c.execute("SELECT name,age,address FROM staff WHERE id = 1")
+    staff_info = c.fetchone()
+    c.close()
+    return render_template("db_test.html", staff_info = staff_info)
+    
+@app.route("/kamikiruka")
+def kamikiruka():
+    
+    import random
+    a = ["電車で帰る","歩いて帰る"] 
+    
+    kamikiruka1 = random.choice(a)
+    print(kamikiruka1)
+
+    return render_template("kamikiruka.html", unmei = kamikiruka1)
+    
+@app.route("/keisannki")
+def keisannki():
+    
+    import random
+    s = ["うんこ"]
+    
+    kotae = random.choice(s)
+    print(kotae)
+
+    return render_template("keisann.html", kotae = kotae)
+    
+
+
+
 
 
 

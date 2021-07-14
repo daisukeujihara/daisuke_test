@@ -1,0 +1,219 @@
+#home_img {
+    height: 70px;
+    padding-right: 5px;
+}
+
+#home {
+    font-size: 30px;
+    display: block;
+    /* background-color: brown; */
+    padding: 10px 0 10px 5px;
+    width: 130px;
+}
+
+#kensaku_img {
+    height: 70px;
+    padding-right: 5px;
+    font-size: 30px;
+    display: block;
+    background-color: brown;
+    padding: 10px 0 10px 5px;
+    width: 130px;
+}
+
+#kensaku {
+    font-size: 30px;
+    display: block;
+    /* background-color: red; */
+    padding: 10px 0 10px 5px;
+    width: 100px;
+}
+
+#mail_img {
+    height: 30px;
+    padding-right: 5px;
+}
+
+#mail {
+    font-size: 30px;
+    display: block;
+    /* background-color: royalblue; */
+    padding: 10px 0 10px 5px;
+    width: 190px;
+}
+
+#pr_img {
+    height: 70px;
+    padding-right: 5px;
+}
+
+#pr {
+    font-size: 30px;
+    display: block;
+    /* background-color: royalblue; */
+    padding: 10px 0 10px 5px;
+    width: 220px;
+}
+
+#top_go {
+    font-size: 30px;
+    display: block;
+    /* background-color: royalblue; */
+    padding: 10px 0 10px 5px;
+    width: 190px;
+}
+
+#top_go_img {
+    height: 70px;
+    padding-right: 5px;
+}
+
+#hidari_itiran {
+    /* background-color: skyblue; */
+    margin-right: 0 auto;
+    width: 20%;
+    /* border-right: solid 3px black; */
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    /* border-right: solid 3px black; */
+}
+
+#mannaka_itiran {
+    /* background-color: tomato; */
+    width: 80%;
+    position: absolute;
+    top: 0px;
+    left: 21%;
+    right: 0px;
+    border-left: solid 3px black;
+    border-bottom: solid 2px black;
+    /* border-right: solid 3px black; */
+    height: 260px;
+}
+
+#home_mannaka {
+    font-size: 30px;
+    width: 100%;
+    margin-top: 10px;
+    height: 80px;
+    border-bottom: solid 2px black;
+    position: absolute;
+    right: 0px;
+}
+
+#toukou {
+    font-size: 30px;
+    background-color: teal;
+    width: 130px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    right: 0.8%;
+    top: 203px;
+    color: white;
+    border: solid 0 black;
+}
+
+#toukou_type {
+    width: 85%;
+    height: 33%;
+    position: absolute;
+    top: 92px;
+    right: 0px;
+    left: 85px;
+    border-right: solid 0 white;
+    border-left: solid 2px black;
+    border-bottom: solid 2px black;
+    border-top: solid 0 white;
+}
+
+.mirutoko_div {
+    /* background-color: red; */
+    position: absolute;
+    top: 270px;
+    left: -2px;
+    right: -2px;
+    height: 200%;
+    border-left: solid 3px black;
+    /* border-right: solid 3px black; */
+    border-top: solid 2px black;
+}
+
+#migigawa_itiran {
+    background-color: blue;
+    position: absolute;
+    right: 0px;
+    width: 100%;
+    text-align: end;
+}
+
+#mail_aa {
+    display: block;
+}
+
+#burogu_btn {
+    display: block;
+}
+
+/* #aaaa {
+    color: white;
+    background-color: grey;
+    position: absolute;
+    top: 241px;
+    height: 8px;
+    left: 0px;
+    width: 100%;
+    border-left: solid 3px black;
+    border-right: solid 3px black;
+    margin-left: 0px;
+    text-align: center;
+} */
+
+#blg {
+    font-size: 30px;
+    display: block;
+    /* background-color: royalblue; */
+    padding: 10px 0 10px 5px;
+    width: 190px;
+}
+
+#blg_img {
+    height: 70px;
+    padding-right: 5px;
+}
+
+#unko {
+    height: 60px;
+}
+
+/* .hidarigawa {
+    position: fixed;
+} */
+
+#icon_img {
+    border: solid 3px teal;
+    height: 77px;
+    width: 77px;
+    position: absolute;
+    top: 40%;
+    left: 0.1%;
+    background-color: blue;
+    border-radius: 100%;
+}
+
+#aaaa {
+    display: none;
+}
+
+#aaaaa {
+    display: none;
+}
+
+#aaaaaa {
+    display: none;
+}
+
+#aaaaaaa {
+    display: none;
+}

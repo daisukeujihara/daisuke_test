@@ -1,0 +1,48 @@
+#sinki_div {
+    /* background-color: red; */
+    text-align: center;
+    height: 100px;
+    border-bottom: solid 3px black;
+    border-top: solid 3px black;
+    width: 100%;
+}
+
+#login_div {
+    /* background-color: saddlebrown; */
+    text-align: center;
+    height: 130px;
+    border-bottom: solid 3px black;
+}
+
+#notlogin_div {
+    /* background-color: seagreen; */
+    text-align: center;
+    height: 100px;
+    border-bottom: solid 3px black;
+}
+
+#sinki_text {
+    padding-top: 9px;
+    text-align: center;
+    margin: 0 0;
+}
+
+#login_text {
+    padding-top: 11px;
+    text-align: center;
+    margin: 0 0;
+}
+
+#notlogin_text {
+    padding-top: 10px;
+    text-align: center;
+    margin: 0 0;
+}
+
+.saisyo_div {
+    position: absolute;
+    top: 20px;
+    /* left: 40%; */
+    background-color: blue;
+    width: 100%;
+}

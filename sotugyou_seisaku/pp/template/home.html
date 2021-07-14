@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="../static/aa.css"> -->
+    <script src="../static/jquery-3.6.0.min.js"></script>
+    <script src="../static/common.js"></script>
+    <link rel="stylesheet" href="../static/aa.css" type="text/css"
+    media="screen and (min-width: 1100px)">
+    <link rel="stylesheet" href="../static/aa_tiisai.css" type="text/css"
+    media="screen and (max-width: 1099px)">
+</head>
+<body>
+  {% extends "base.html" %}
+  {%block body%}
+  <div class="hidarigawa">
+      <div id="hidari_itiran">
+        <div id="home">
+        <a href="#home_mannaka"><img src="../img/家の無料アイコン.png" alt="ホーム_jpg" title="ホーム画像" id="home_img"><a href="#home_mannaka" id="aaaa">ホーム</a></a></div>
+      <!-- <a id="kensaku"><img src="../img/虫眼鏡のアイコン.png" alt="虫眼鏡_jpg" title="虫眼鏡画像" id="kensaku_img">検索</a> -->
+      <!-- <a id="mail"><img src="../img/メールの無料アイコン.png" alt="メール_jpg" title="メール画像" id="mail_img">メッセージ</a> -->
+      <div id="pr"><a href="../template/pr.html"><img src="../img/人物アイコン.png" alt="人物画像_jpg" id="pr_img"><a href="../template/pr.html" id="aaaaa">プロフィール</a></a></div>
+      <div id="top_go"><a href="#toukou"><img src="../img/羽ペンを持つ手のアイコン.png" alt="羽ペン_img" id="top_go_img"><a id="aaaaaa" href="#toukou">投稿する</a></a></div>
+      <div id="blg"><a href="../template/blg.html"><img src="../img/積み重ねた本のアイコン素材.png" alt="本_img" id="blg_img"><a id="aaaaaaa" href="../template/blg.html">ブログ</a></a></div>
+    </div>
+  </div>
+  <div class="mannaka">
+      <div id="mannaka_itiran">
+      <h1 id="home_mannaka">ホーム</h1>
+      <div>
+           <img src="../img/スクリーンショット 2021-06-08 15.54.25.png" id="icon_img">
+        <form action="/add" method="post">
+          <textarea cols="30" rows="5" name="tpl_task" id="toukou_type">何か入力してください</textarea>
+          <!-- <input type="text" name="tpl_task" id="toukou_type"  cols="30" rows="5"> -->
+          <input type="submit" value="投稿する" name="save" id="toukou">
+      </form>   
+  </div>
+  <div class="mirutoko_div">
+
+  </div>
+  {%endblock%}
+</body>
+</html>

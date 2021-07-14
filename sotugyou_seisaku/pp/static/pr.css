@@ -1,0 +1,93 @@
+#home_img {
+    height: 30px;
+    padding-right: 5px;
+}
+
+#home {
+    font-size: 30px;
+    display: block;
+    /* background-color: brown; */
+    padding: 10px 0 10px 5px;
+    width: 130px;
+}
+
+#kensaku_img {
+    height: 30px;
+    padding-right: 5px;
+    font-size: 30px;
+    display: block;
+    /* background-color: brown; */
+    padding: 10px 0 10px 5px;
+    width: 130px;
+}
+
+#kensaku {
+    font-size: 30px;
+    display: block;
+    /* background-color: red; */
+    padding: 10px 0 10px 5px;
+    width: 100px;
+}
+
+#mail_img {
+    height: 30px;
+    padding-right: 5px;
+}
+
+#mail {
+    font-size: 30px;
+    display: block;
+    /* background-color: royalblue; */
+    padding: 10px 0 10px 5px;
+    width: 190px;
+}
+
+#pr_img {
+    height: 30px;
+    padding-right: 5px;
+}
+
+#pr {
+    font-size: 30px;
+    display: block;
+    /* background-color: royalblue; */
+    padding: 10px 0 10px 5px;
+    width: 220px;
+}
+
+#top_go {
+    font-size: 30px;
+    display: block;
+    /* background-color: royalblue; */
+    padding: 10px 0 10px 5px;
+    width: 190px;
+}
+
+#top_go_img {
+    height: 30px;
+    padding-right: 5px;
+}
+
+#hidari_itiran {
+    /* background-color: skyblue; */
+    margin-right: 0 auto;
+    width: 20%;
+    /* border-right: solid 3px black; */
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    /* border-right: solid 3px black; */
+}
+
+#blg {
+    font-size: 30px;
+    display: block;
+    /* background-color: royalblue; */
+    padding: 10px 0 10px 5px;
+    width: 190px;
+}
+
+#blg_img {
+    height: 30px;
+    padding-right: 5px;
+}

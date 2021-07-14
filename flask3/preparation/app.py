@@ -18,15 +18,20 @@ def helloWold():
 @app.route("/weather")
 def weather():
     import random
-    a = ["はれ","曇り","雨"] 
+    a = ["ボブ","ウルフ"] 
     
     py_tenki2 = random.choice(a)
     print(py_tenki2)
 
     return render_template("index.html",name = py_tenki2)
+# --------------------------------------
+from flask import render_template
 
+from flask import render_template
 
-
+@app.errorhandler(404)
+def page_not_found(error):
+  return render_template('page_not_found.html'), 404
 
 
 
@@ -38,3 +43,5 @@ def weather():
 if __name__ == "__main__":
 
     app.run(debug=True)
+
+    
