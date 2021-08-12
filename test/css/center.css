@@ -1,0 +1,50 @@
+ div {
+     /*background-color: red;
+    width: 300px;
+    height: 300px;
+    padding: 14px 16px;
+    margin: 60px;
+    border: solid 12px black;
+    文字の中央よせ
+    text-align: center;
+    ブロック要素の中央よせ
+    margin: auto;  
+    インライン要素垂直方向中央寄せ */
+
+ }
+
+ section {
+     background-color: yellow;
+     display: flex;
+     justify-content: center;
+ }
+
+ .button {
+     margin: 0;
+     padding: 0;
+     background-color: red;
+     border-radius: 8px;
+     will-change: 150px;
+     height: 44px;
+ }
+
+ .button__text {
+     line-height: 44px;
+ }
+
+ .out {
+     background-color: yellow;
+     height: 1000px;
+     position: relative;
+     visibility: hidden;
+ }
+
+ .in {
+     height: 300px;
+     width: 300px;
+     background-color: blue;
+     /* position: relative; */
+     position: fixed;
+     left: 32px;
+     bottom: 32px;
+ }

@@ -1,0 +1,55 @@
+h1 {
+    color: red;
+}
+
+.text {
+    background-color: black;
+    color: white;
+}
+
+p {
+    color: tomato;
+}
+
+.blue {
+    color: blue;
+}
+
+#red {
+    color: blueviolet;
+    font-size: 20px;
+}
+
+p {
+    color: pink;
+}
+
+.button {
+    background-color: gray;
+    border-radius: 15px;
+    width: 200px;
+    height: 44px;
+}
+
+h1,
+h2 {
+    background-color: greenyellow;
+}
+
+/* wa----- */
+.fashion p {
+    background-color: yellow;
+}
+
+.content {
+    text-align: center;
+}
+
+h3 {
+    text-align: left;
+}
+
+
+.big {
+    font-size: 100px;
+}

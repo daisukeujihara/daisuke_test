@@ -8,11 +8,15 @@
 	<link rel="icon" href="favicon.ico">
 
 <!-- 【課題】cssを読み込むリンクを記述してください -->
-<link rel="stylesheet" href="./css/style.css"
-media="screen and (min-width: 769px)">
-<link rel="stylesheet" href="./css/exercises_sp.css"
-media="screen and (max-width: 768px)">
+<!-- <link rel="stylesheet" href="./css/style.css"> -->
+<link rel="stylesheet" href="./css/style.css" type="text/css"
+    media="screen and (min-width: 480px)">
+    <link rel="stylesheet" href="./css/style_sp.css" type="text/css"
+    media="screen and (max-width: 480px)">
+	<script src="./js/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="./js/common.js"></script>
 <!-- ここまでに記述-->
+
 	<title>月木でわかる HTML5 &amp; CSS3</title>
 </head>
 
@@ -26,16 +30,15 @@ media="screen and (max-width: 768px)">
 				<span></span>
 				<span></span>
 			</a>
-			
 		</div>
 		<!-- ここまでハンバーガーメニュー -->
 		<ul>
-			<li><a href="#sec1" id="midasi">見出しのエリア</a></li>
-			<li><a href="#sec2" id="flexnoeria">flexのエリア</a></li>
-			<li><a href="#sec3" id="sentaringueria">センタリングエリア</a></li>
-			<li><a href="#sec4" id="seisaku">制作実績</a></li>
-			<button class="change_ja">日本語</button>
-	<button class="change_en">English</button>
+			<li><a href="#sec1" class="m">見出しのエリア</a></li>
+			<li><a href="#sec2" class="f">flexのエリア</a></li>
+			<li><a href="#sec3" class="s">センタリングエリア</a></li>
+			<li><a href="#sec4" class="se">制作実績</a></li>
+			<li><a class="japan">日本語</a></li>
+			<li><a class="eng">English</a></li>
 		</ul>
 	</header>
 
@@ -99,29 +102,24 @@ media="screen and (max-width: 768px)">
 		<section id="sec4">
 			<div class="box port">
 				<h1>制作実績</h1>
-			
-				<button id="size-up">画像拡大</button>
-				<button id="img-change">画像変更</button>
 				<p>ここでもdisplay:flexの練習をしましょうdisplay:flexは様々な並び替えをすることができます。<br>
 					グリッドレイアウトと言われるCSSも最近流行っています。ここではflexを使用します。</p>
-
+					<button id="kakudai">画像拡大だ</button>
+					<button id="henkou">画像変更だ</button>
 				<div class="portfolio">
-						<a href="#"><img src="../syakyou/img/thumb_01.png" alt="あいうえお"></a>
-							<div><p class="port_title">あいうえお建設様</p>
+						<a href="#"><img src="./img/thumb_01.png" alt="あいうえお" class="img"><p class="port_title">あいうえお建設様</p></a>
 						<p>ここに制作実績のテキストが入ります。ここに制作実績のテキストが入ります。ここに制作実績のテキストが入ります。
 						ここに制作実績のテキストが入ります。ここに制作実績のテキストが入ります。ここに制作実績のテキストが入ります。</p>
-						
-					</div>
 				</div>
 
 				<div class="portfolio flex_reverse">
 					<p>ここに制作実績のテキストが入ります。ここに制作実績のテキストが入ります。ここに制作実績のテキストが入ります。
 					ここに制作実績のテキストが入ります。ここに制作実績のテキストが入ります。ここに制作実績のテキストが入ります。</p>
-					<a href="#"><img src="../syakyou/img/thumb_02.png" alt="かきくけこ"><p class="port_title">かきくけこ電気様</p></a>
+					<a href="#"><img src="./img/thumb_02.png" alt="かきくけこ"><p class="port_title">かきくけこ電気様</p></a>
 				</div>
 
 				<div class="portfolio">
-					<a href="#"><img src="../syakyou/img/thumb_03.png" alt="さしすせそ"><p class="port_title">さしすせそ興行様</p></a>
+					<a href="#"><img src="./img/thumb_03.png" alt="さしすせそ"><p class="port_title">さしすせそ興行様</p></a>
 					<p>ここに制作実績のテキストが入ります。ここに制作実績のテキストが入ります。ここに制作実績のテキストが入ります。
 					ここに制作実績のテキストが入ります。ここに制作実績のテキストが入ります。ここに制作実績のテキストが入ります。</p>
 				</div>
@@ -133,8 +131,7 @@ media="screen and (max-width: 768px)">
 	<footer>
 		<p class="copyright">Copyright &copy; DEMO all rights reserved.</p>
 	</footer>
-	<script src="js/jquery-3.6.0.min.js"></script>
-	<script src="./js/common.js"></script>
+
 </body>
 
 </html>
